@@ -15,6 +15,7 @@ import { toast } from 'react-toastify';
 const UserProfile = () => {
   const { username } = useParams();
   const navigate = useNavigate();
+  const currentUser = useSelector((state) => state.user.user);
   const [user, setUser] = useState(null);
   const [userPosts, setUserPosts] = useState([]);
   const [userCommunities, setUserCommunities] = useState([]);
@@ -30,9 +31,8 @@ const loadUserProfile = async () => {
       setLoading(true);
       setError(null);
 
-// Get user data from Redux (currently logged-in user)
-      const userData = useSelector((state) => state.user.user);
-      if (!userData) {
+      // Get user data from Redux (currently logged-in user)
+      if (!currentUser) {
         setError('User not found');
         setLoading(false);
         return;
@@ -47,7 +47,7 @@ const loadUserProfile = async () => {
       );
       const validCommunities = communities.filter(Boolean);
 
-      setUser(userData);
+      setUser(currentUser);
       setUserPosts(posts);
       setUserCommunities(validCommunities);
     } catch (err) {
@@ -58,7 +58,7 @@ const loadUserProfile = async () => {
     }
   };
 
-  const handleVote = async (postId, voteValue) => {
+const handleVote = async (postId, voteValue) => {
     try {
       await PostService.vote(postId, voteValue);
       const updatedPosts = userPosts.map(post => {
@@ -70,9 +70,10 @@ const loadUserProfile = async () => {
       });
       setUserPosts(updatedPosts);
       
-// Get updated user data from Redux
-      const updatedUser = useSelector((state) => state.user.user);
-      setUser(updatedUser);
+      // Get updated user data from Redux
+      if (currentUser) {
+        setUser(currentUser);
+      }
       
       toast.success(voteValue > 0 ? 'Upvoted!' : 'Downvoted!');
     } catch (err) {
