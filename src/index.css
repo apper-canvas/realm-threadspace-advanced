@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'react-toastify/dist/ReactToastify.css';
+
+@layer base {
+  * {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+  
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .toast-custom {
+    font-family: 'Inter', system-ui, sans-serif !important;
+    font-size: 14px !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+  }
+  
+  .Toastify__toast {
+    font-family: 'Inter', system-ui, sans-serif !important;
+    font-size: 14px !important;
+    border-radius: 8px !important;
+    min-height: 56px !important;
+    padding: 16px !important;
+  }
+
+  .Toastify__toast-container {
+    width: 320px !important;
+    right: 16px !important;
+    top: 16px !important;
+  }
+
+  .vote-button-active {
+    transform: scale(1.1);
+  }
+
+  .post-card-hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+    transform: translateY(-2px);
+  }
+
+  .skeleton-pulse {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: .7;
+    }
+  }
+}
+
+.vote-animation {
+  transition: all 0.15s ease-in-out;
+}
+
+.vote-animation:hover {
+  transform: scale(1.1);
+}
+
+.vote-animation:active {
+  transform: scale(0.95);
+}
+
+.score-bounce {
+  animation: bounce-score 0.3s ease-in-out;
+}
+
+@keyframes bounce-score {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+}

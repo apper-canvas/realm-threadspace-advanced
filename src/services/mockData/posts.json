@@ -1,0 +1,210 @@
+[
+  {
+    "Id": 1,
+    "id": "post_1",
+    "title": "The Future of Web Development: What to Expect in 2024",
+    "content": "As we move into 2024, web development continues to evolve at a rapid pace. From server-side rendering frameworks to edge computing, developers are constantly adapting to new paradigms. React continues to dominate the frontend space, while frameworks like Next.js and Remix are pushing the boundaries of what's possible. What trends are you most excited about?",
+    "author": "techguru42",
+    "community": "webdev",
+    "score": 127,
+    "userVote": 0,
+    "timestamp": "2024-01-15T10:30:00.000Z",
+    "commentCount": 34,
+    "tags": ["react", "webdev", "javascript", "nextjs", "frontend", "2024"]
+  },
+{
+    "Id": 2,
+    "id": "post_2",
+    "title": "Just finished my first marathon! Here's what I learned",
+    "content": "After 6 months of training, I finally crossed the finish line at the city marathon yesterday. The experience was incredible - from the early morning nerves to the overwhelming joy at mile 26. Training consistency was key, but the mental game was just as important. For anyone thinking about running their first marathon, my biggest advice is to start slow and listen to your body.",
+    "author": "runnerlife",
+    "community": "fitness",
+    "score": 89,
+    "userVote": 1,
+    "timestamp": "2024-01-15T08:15:00.000Z",
+    "commentCount": 28,
+    "tags": ["marathon", "running", "fitness", "training", "achievement"]
+  },
+{
+    "Id": 3,
+    "id": "post_3",
+    "title": "My homemade sourdough bread finally worked!",
+    "content": "After weeks of failed attempts and a very unhappy starter, I finally got the perfect loaf! The key was maintaining consistent temperature and being patient with the fermentation process. The crust is golden and crispy, and the crumb structure is exactly what I was aiming for. Sharing the recipe and some tips that made the difference.",
+    "author": "breadmaster",
+    "community": "cooking",
+    "score": 156,
+    "userVote": 0,
+    "timestamp": "2024-01-15T06:45:00.000Z",
+    "commentCount": 42,
+    "tags": ["sourdough", "baking", "bread", "cooking", "recipe", "fermentation"]
+  },
+{
+    "Id": 4,
+    "id": "post_4",
+    "title": "PSA: New scam targeting job seekers on LinkedIn",
+    "content": "Just wanted to warn everyone about a new scam I encountered while job hunting. Fake recruiters are reaching out with 'amazing opportunities' that require you to pay for 'training materials' or 'background checks.' Real companies never ask candidates to pay anything upfront. Always verify the recruiter's identity and the company's legitimacy before sharing personal information.",
+    "author": "careeradvice",
+    "community": "jobs",
+    "score": 234,
+    "userVote": 1,
+    "timestamp": "2024-01-14T22:20:00.000Z",
+    "commentCount": 67,
+    "tags": ["scam", "linkedin", "jobsearch", "careers", "psa"]
+  },
+{
+    "Id": 5,
+    "id": "post_5",
+    "title": "Captured this sunrise from my backyard this morning",
+    "content": "Woke up early and was greeted by this incredible display of colors. Sometimes the best photography opportunities are right outside your door. Shot with my old DSLR and minimal post-processing - nature really is the best artist. Hope this brightens your day as much as it did mine!",
+    "author": "naturephoto",
+    "community": "photography",
+    "score": 78,
+    "userVote": 0,
+    "timestamp": "2024-01-14T15:30:00.000Z",
+    "commentCount": 19,
+    "tags": ["photography", "sunrise", "nature", "dslr", "landscape"]
+  },
+{
+    "Id": 6,
+    "id": "post_6",
+    "title": "Anyone else struggling with work-life balance in remote work?",
+    "content": "Been working from home for 2 years now and still finding it hard to 'switch off' after work hours. The boundaries between personal and professional time have become so blurred. Looking for practical tips from others who've found a good balance. What strategies work for you?",
+    "author": "remoteworker",
+    "community": "productivity",
+    "score": 145,
+    "userVote": 0,
+    "timestamp": "2024-01-14T12:10:00.000Z",
+    "commentCount": 56,
+    "tags": ["remote-work", "work-life-balance", "productivity", "wfh"]
+  },
+{
+    "Id": 7,
+    "id": "post_7",
+    "title": "My dog learned to open doors and now privacy is a myth",
+    "content": "Our golden retriever has figured out how to open lever-style door handles and now considers every room in the house his personal domain. Bathroom privacy? Gone. Bedroom doors? Merely suggestions. He's too proud of his new skill to be upset about it. Has anyone else dealt with an overly clever pet?",
+    "author": "dogparent",
+    "community": "pets",
+    "score": 92,
+    "userVote": 1,
+    "timestamp": "2024-01-14T09:25:00.000Z",
+    "commentCount": 38,
+    "tags": ["dogs", "pets", "funny", "golden-retriever", "training"]
+  },
+{
+    "Id": 8,
+    "id": "post_8",
+    "title": "Book recommendation: 'The Seven Husbands of Evelyn Hugo'",
+    "content": "Just finished this book and I'm still processing all the emotions. Taylor Jenkins Reid has created such a compelling character in Evelyn Hugo - glamorous, flawed, and deeply human. The storytelling is masterful and the plot twists kept me guessing until the end. If you're looking for your next page-turner, this is it!",
+    "author": "bookworm99",
+    "community": "books",
+    "score": 67,
+    "userVote": 0,
+    "timestamp": "2024-01-13T20:40:00.000Z",
+    "commentCount": 23,
+    "tags": ["books", "reading", "fiction", "recommendation", "taylor-jenkins-reid"]
+  },
+{
+    "Id": 9,
+    "id": "post_9",
+    "title": "Climate change discussion: practical steps we can take",
+    "content": "With recent weather events making headlines, I've been thinking about actionable steps individuals can take to reduce their environmental impact. Beyond the obvious ones like reducing car usage and recycling, what are some lesser-known but effective changes we can make? Looking for evidence-based suggestions and personal experiences.",
+    "author": "ecowarrior",
+    "community": "environment",
+    "score": 201,
+    "userVote": 1,
+    "timestamp": "2024-01-13T18:15:00.000Z",
+    "commentCount": 89,
+    "tags": ["climate-change", "environment", "sustainability", "green-living"]
+  },
+{
+    "Id": 10,
+    "id": "post_10",
+    "title": "Local coffee shop closes after 20 years - end of an era",
+    "content": "The Corner Café downtown is closing its doors next week after serving our community for two decades. This little place has been where I've had first dates, job interviews, study sessions, and countless conversations with friends. It's heartbreaking to see local businesses struggle while chain stores thrive. Let's support our remaining local spots while we still can.",
+    "author": "localfoodie",
+    "community": "community",
+    "score": 178,
+    "userVote": 0,
+    "timestamp": "2024-01-13T14:50:00.000Z",
+    "commentCount": 52,
+    "tags": ["local-business", "community", "coffee", "small-business", "support-local"]
+  },
+{
+    "Id": 7,
+    "id": "post_7",
+    "title": "Which programming language should I learn first?",
+    "content": null,
+    "author": "codingNewbie",
+    "community": "learnprogramming",
+    "score": 34,
+    "userVote": 0,
+    "timestamp": "2024-01-12T14:20:00Z",
+    "commentCount": 18,
+    "tags": ["programming", "learning", "advice"],
+    "postType": "poll",
+    "imageUrl": null,
+    "linkUrl": null,
+    "pollOptions": [
+      {
+        "Id": 1,
+        "text": "Python",
+        "voteCount": 15
+      },
+      {
+        "Id": 2,
+        "text": "JavaScript",
+        "voteCount": 12
+      },
+      {
+        "Id": 3,
+        "text": "Java",
+        "voteCount": 5
+      },
+      {
+        "Id": 4,
+        "text": "C++",
+        "voteCount": 2
+      }
+    ],
+    "userPollVote": null
+  },
+  {
+    "Id": 8,
+    "id": "post_8",
+    "title": "What's your favorite feature in the new update?",
+    "content": null,
+    "author": "techEnthusiast",
+    "community": "technology",
+    "score": 67,
+    "userVote": 1,
+    "timestamp": "2024-01-13T09:15:00Z",
+    "commentCount": 23,
+    "tags": ["update", "features", "feedback"],
+    "postType": "poll",
+    "imageUrl": null,
+    "linkUrl": null,
+    "pollOptions": [
+      {
+        "Id": 1,
+        "text": "Dark mode improvements",
+        "voteCount": 28
+      },
+      {
+        "Id": 2,
+        "text": "Performance optimization",
+        "voteCount": 22
+      },
+      {
+        "Id": 3,
+        "text": "New UI components",
+        "voteCount": 12
+      },
+      {
+        "Id": 4,
+        "text": "Bug fixes",
+        "voteCount": 5
+      }
+    ],
+    "userPollVote": 1
+  }
+]
