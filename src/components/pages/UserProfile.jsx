@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { formatDistanceToNow } from 'date-fns';
-import { UserService } from '@/services/api/userService';
+import { useSelector } from 'react-redux';
 import { PostService } from '@/services/api/postService';
 import { CommunityService } from '@/services/api/communityService';
 import PostCard from '@/components/organisms/PostCard';
@@ -30,7 +30,8 @@ const loadUserProfile = async () => {
       setLoading(true);
       setError(null);
 
-      const userData = UserService.getByUsername(username);
+// Get user data from Redux (currently logged-in user)
+      const userData = useSelector((state) => state.user.user);
       if (!userData) {
         setError('User not found');
         setLoading(false);
@@ -69,7 +70,8 @@ const loadUserProfile = async () => {
       });
       setUserPosts(updatedPosts);
       
-      const updatedUser = UserService.getByUsername(username);
+// Get updated user data from Redux
+      const updatedUser = useSelector((state) => state.user.user);
       setUser(updatedUser);
       
       toast.success(voteValue > 0 ? 'Upvoted!' : 'Downvoted!');
